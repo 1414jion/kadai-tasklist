@@ -26,6 +26,8 @@ public class Task {
     private Integer id;
 
 
+
+
     @Column(name = "content", length = 255, nullable = false)
     private String content;
 

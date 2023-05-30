@@ -25,7 +25,6 @@ public class NewServlet extends HttpServlet {
      */
     public NewServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
     /**
@@ -37,6 +36,8 @@ public class NewServlet extends HttpServlet {
 
         // Taskのインスタンスを生成
         Task m = new Task();
+
+        // mの各フィールドにデータを代入
 
 
         String content = "hello";
@@ -55,5 +56,4 @@ public class NewServlet extends HttpServlet {
 
         em.close();
      }
-
 }
